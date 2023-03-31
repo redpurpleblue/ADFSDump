@@ -6,6 +6,8 @@ Created by Doug Bienstock [(@doughsec)](https://twitter.com/doughsec) while at M
 
 This tool is designed to be run in conjunction with ADFSpoof. ADFSdump will output all of the information needed in order to generate security tokens using ADFSpoof.
 
+Stolen Code to impersonate ADFS Service Account from: https://github.com/ofir286/adconnectdump 
+
 ## Detailed Description
 
 ADFSDump is a tool that will read information from Active Directory and from the AD FS Configuration Database that is needed to generate forged security tokens. This information can then be fed into ADFSpoof to generate those tokens. 
